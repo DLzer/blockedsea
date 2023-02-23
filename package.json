@@ -1,0 +1,26 @@
+{
+  "name": "blockedsea",
+  "version": "1.0.0",
+  "description": "Giving users the ability to toggle blocking OpenSea as an operator",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "keywords": [
+    "hardhat",
+    "solidity",
+    "js"
+  ],
+  "author": "DLzer",
+  "license": "MIT",
+  "devDependencies": {
+    "hardhat": "^2.12.7"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@openzeppelin/contracts": "^4.8.1",
+    "dotenv": "^16.0.3",
+    "erc721a": "^4.2.3",
+    "hardhat-gas-reporter": "^1.0.9"
+  }
+}
